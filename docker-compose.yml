@@ -20,5 +20,3 @@ services:
       - MYSQL_DATABASE=snipe
       - MYSQL_USER=snipe
       - MYSQL_PASSWORD=snipeuserpass
-    volumes:
-      - /mysql/dumps/dir:/docker-entrypoint-initdb.d
